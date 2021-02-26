@@ -1,0 +1,58 @@
+body {
+  background-color: #222222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #01D9FF;
+}
+
+ h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  /* font-weight: 300; */
+}
+
+#timer {
+  color: #01D9FF;
+  font-size: 150px;
+  text-align:center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.clock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.spacer-top {
+  align-self: flex-start;
+}
+
+.spacer-bottom {
+  align-self: flex-end;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.clock-container > .buttons > button {
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  background-color: #222222;
+  color: #01D9FF;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}

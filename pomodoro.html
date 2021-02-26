@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>Pomodoro Timer</h1>
+    <div class="clock-container">
+      <!-- <div class="spacer-top"></div> -->
+      <div id="timer"></div>
+      <div class="buttons">
+        <!-- play: &#9654; pause: &#9208; reset: &#8634;-->
+        <button onclick="start_pause()"><span id="play_pause" class="material-icons md-48">play_arrow</span></button>
+        <button onclick="reset()"><span class="material-icons md-48">replay</span></button>
+      </div>
+      <div id="count">
+        Pomodoros: 0
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
