@@ -42,6 +42,7 @@ function setTime(ms_left) {
 function updatePomodoroCount() {
   ++pomodoro_count;
   document.getElementById("count").innerHTML = "Pomodoros: " + pomodoro_count;
+  new Audio('beep.mp3').play();
 }
 
 
